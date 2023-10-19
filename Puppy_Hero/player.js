@@ -21,6 +21,7 @@ export class Player {
         this.speed = 0;
         this.maxSpeed = 10;
         this.states = [new Sitting(this.game), new Running(this.game), new Jumping(this.game), new Falling(this.game), new Rolling(this.game), new Diving(this.game), new Hit(this.game)];
+        this.currentState = null;
     }
     update(input, deltaTime){
         this.checkCollision();
@@ -75,6 +76,7 @@ export class Player {
                     this.game.floatingMessages.push(new FloatingMessage('+1', enemy.x, enemy.y, 150, 50));
                 } else {
                     this.setState(6, 0);
+                    this.game.score -= 5;
                     this.game.lives--;
                     if (this.game.lives <= 0) this.game.gameOver = true;
                 }

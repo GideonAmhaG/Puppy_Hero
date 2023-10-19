@@ -9,7 +9,7 @@ window.addEventListener('load', function(){
 
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
-    canvas.width = 500;
+    canvas.width = 900;
     canvas.height = 500;
 
     class Game {
@@ -32,9 +32,10 @@ window.addEventListener('load', function(){
             this.enemyInterval = 1000;
             this.debug = false;
             this.score = 0;
+            this.winningScore = 40;
             this.fontColor = 'black';
             this.time = 0;
-            this.maxTime = 10000;
+            this.maxTime = 30000;
             this.gameOver = false;
             this.lives = 5;
             this.player.currentState = this.player.states[0];
@@ -60,19 +61,19 @@ window.addEventListener('load', function(){
                 message.update();
             });
             // handle particles
-            this.particles.forEach((particle, index) => {
+            this.particles.forEach(particle => {
                 particle.update();
             });
             if (this.particles.length > this.maxParticles) {
                 this.particles.length = this.maxParticles;
             }
             // handle collision sprites
-            this.collisions.forEach((collision, index) =>{
+            this.collisions.forEach(collision => {
                 collision.update(deltaTime);
-                if (collision.markedForDeletion) this.collisions.splice(index, 1);
             });
             this.enemies = this.enemies.filter(enemy => !enemy.markedForDeletion);
             this.particles = this.particles.filter(particle => !particle.markedForDeletion);
+            this.collisions = this.collisions.filter(collision => !collision.markedForDeletion);
             this.floatingMessages = this.floatingMessages.filter(message => !message.markedForDeletion);
         }
         draw(context){

@@ -8,9 +8,16 @@ window.addEventListener('load', function(){
     /** @type {HTMLCanvasElement} */
 
     const canvas = document.getElementById('canvas1');
+    const startDiv = document.getElementById('start');
+    const link = document.getElementById('link');
+    link.addEventListener('click', e => {
+        startDiv.style.display = 'none';
+        canvas.style.display = 'block';
+    });
     const ctx = canvas.getContext('2d');
     canvas.width = 900;
     canvas.height = 500;
+   
 
     class Game {
         constructor(width, height){
@@ -115,4 +122,5 @@ window.addEventListener('load', function(){
         if (!game.gameOver) requestAnimationFrame(animate);
     }
     animate(0);
+
 });

@@ -16,3 +16,38 @@
 #player, #layer1, #layer2, #layer3, #layer4, #layer5, #enemy_fly, #enemy_plant, #enemy_spider_big, #fire, #collisionAnimation, #lives {
     display: none;
 }
+
+body {
+    color: #ffffff;
+    background-color:#8b8c8d;
+}
+
+#start {
+    font-family: Creepster, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    height:200px;
+    width:250px;
+    text-align: center;
+}
+
+#start a {
+    border: 3px solid black;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size:2em;
+    display: inline-block;
+}
+
+#start a:hover { background-color: rgb(75, 75, 75); color: white; }

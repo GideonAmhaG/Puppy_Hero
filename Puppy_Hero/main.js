@@ -49,7 +49,7 @@ window.addEventListener('load', function(){
             this.player.currentState.enter();
         }
         update(deltaTime){
-            if (this.time > 0) this.time -= 10;
+            if (this.time > 0) this.time -= 16;
             else this.gameOver = true;
             this.background.update();
             this.player.update(this.input.keys, deltaTime);
@@ -109,11 +109,9 @@ window.addEventListener('load', function(){
 
     const game = new Game(canvas.width, canvas.height);
     let lastTime = 0;
-    console.log(canvas.style.display);
     link.addEventListener('click', e => {
         startDiv.style.display = 'none';
         canvas.style.display = 'block';
-        console.log(canvas.style.display);
         function animate(timeStamp){
             const deltaTime = timeStamp - lastTime;
             lastTime = timeStamp;

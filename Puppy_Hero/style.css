@@ -62,6 +62,7 @@ body {
     transform: translate(-50%, -35%);
     color: black;
     text-align: center;
+    /* text-shadow: 2px 2px 5px white; */
 }
 
 #controls {
@@ -71,11 +72,11 @@ body {
     left: 51.5%;
     top: 90%;
     transform: translate(-51.5%, -90%);
+    /* text-shadow: 2px 2px 5px white; */
 }
 
 #controlsTitle {
     font-size: 1.5em;
-    color: black;
     text-decoration: underline;
     list-style-type: none;
 }

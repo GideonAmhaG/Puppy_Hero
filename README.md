@@ -1,9 +1,7 @@
-Puppy Hero
+
+# Puppy Hero
 
 Puppy Hero is a unique and challenging 2D endless runner game built with JavaScript. The player controls a puppy who runs through an endless procedurally generated landscape, avoiding enemies and killing them in order to survive. The goal is to kill a certain number of enemies before the time expires.
-![](https://github.com/GideonAmhaG/specialization_portfolio_project/blob/main/lives.png)
-
-
 
 
 ## 🔗 Links

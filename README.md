@@ -33,9 +33,14 @@ Puppy Hero is deployed online at https://puppyhero.phaedrusstudios.com/.
       Press spacebar key when energy is full to catch fire and kill enemies.
       Press down arrow key while on the ground to sit and recharge energy faster.
       The game ends when the time expires or if you lose all your lives.
-## 🚀 About Me
-I'm a passionate game developer.
 
+## Authors
+
+Gideon Amha Gebremedhin - [Github](https://github.com/GideonAmhaG) | [X](https://x.com/GideonAmha)
+
+## 🚀 About Me
+
+I'm a passionate game developer.
 
 ## License
 

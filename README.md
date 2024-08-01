@@ -22,7 +22,7 @@ Puppy Hero is a unique and challenging 2D endless runner game built with JavaScr
 
 
 ## Deployment
-Puppy Hero is deployed online at [https://games.puppyhero.geotechapps.com/].
+Puppy Hero is deployed online at https://puppyhero.phaedrusstudios.com/.
 
 
 ## How to Play:

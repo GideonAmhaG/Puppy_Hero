@@ -1,7 +1,7 @@
 
 # Puppy Hero
 
-Puppy Hero is a unique and challenging 2D endless runner game built with JavaScript. The player controls a puppy who runs through an endless procedurally generated landscape, avoiding enemies and killing them in order to survive. The goal is to kill a certain number of enemies before the time expires.
+Puppy Hero is a challenging 2D endless runner game built with vanilla JavaScript, without the use of a game engine. Playable in any browser, this award-winning game features a puppy navigating a procedurally generated landscape, avoiding and defeating enemies to achieve high scores before time runs out. It won Best Indie Game/Studio of the Year at the 2023 Chewatacon Game Awards, highlighting its unique and innovative design.
 
 
 ## 🔗 Links

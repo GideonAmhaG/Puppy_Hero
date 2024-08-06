@@ -10,7 +10,7 @@ Check out the live demo of Puppy Hero [here](https://puppyhero.phaedrusstudios.c
 
 
 ## How to Play:
-      Go to the game's website (see above).
+      Go to the game's website [here](https://puppyhero.phaedrusstudios.com/).
       Press left and right arrow keys to move player.
       Press up arrow key to jump.
       Press down arrow key while in the air to dive and kill enemies.

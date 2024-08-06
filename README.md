@@ -4,10 +4,19 @@
 Puppy Hero is a challenging 2D endless runner game built with vanilla JavaScript, without the use of a game engine. Playable in any browser, this award-winning game features a puppy navigating a procedurally generated landscape, avoiding and defeating enemies to achieve high scores before time runs out. It won Best Indie Game/Studio of the Year at the 2023 Chewatacon Game Awards, highlighting its unique and innovative design.
 
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/GideonAmhaG)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gideon-amha-g/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/GideonAmha)
+## Live Demo
+
+Check out the live demo of Puppy Hero [here](https://puppyhero.phaedrusstudios.com/).
+
+
+## How to Play:
+      Go to the game's website (see above).
+      Press left and right arrow keys to move player.
+      Press up arrow key to jump.
+      Press down arrow key while in the air to dive and kill enemies.
+      Press spacebar key when energy is full to catch fire and kill enemies.
+      Press down arrow key while on the ground to sit and recharge energy faster.
+      The game ends when the time expires or if you lose all your lives.
 
 
 ## Features
@@ -20,27 +29,10 @@ Puppy Hero is a challenging 2D endless runner game built with vanilla JavaScript
 - Beautiful parallax background
 
 
-
-## Deployment
-Puppy Hero is deployed online at https://puppyhero.phaedrusstudios.com/.
-
-
-## How to Play:
-      Go to the game's website (see above).
-      Press left and right arrow keys to move player.
-      Press up arrow key to jump.
-      Press down arrow key while in the air to dive and kill enemies.
-      Press spacebar key when energy is full to catch fire and kill enemies.
-      Press down arrow key while on the ground to sit and recharge energy faster.
-      The game ends when the time expires or if you lose all your lives.
-
 ## Authors
 
 Gideon Amha Gebremedhin - [Github](https://github.com/GideonAmhaG) | [X](https://x.com/GideonAmha)
 
-## 🚀 About Me
-
-I'm a passionate game developer.
 
 ## License
 
